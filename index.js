@@ -1,10 +1,44 @@
+console.log("Hello I am conditional tutorial")
 
-console.log("this is tutorial 55")
+let age = 0;
+// let grace = 2;
 
-var a = 5;
-var b = 6;
-var c = "harry";
+// age += grace
+// // console.log(age)
+// console.log(age + grace)
+// console.log(age - grace)
+// console.log(age * grace)
+// console.log(age / grace)
+// console.log(age ** grace)
+// console.log(age % grace)
+if (age== 18) {
+    console.log("You can drive");
+}
 
-console.log(a + b + 8)
-console.log(typeof a,typeof b,typeof c)
+// else  {
+//     console.log("you  drive")
+// }
 
+else if (age == 0) {
+    console.log("Are you again kidding?")
+}
+
+else {
+    console.log("You cannot drive");
+}
+
+
+// a = 6;
+// b = 8;
+// let c = a > b ? (a - b) : (b - a);
+
+/*
+translates to:
+if(a>b){
+    let c = a - b;
+}
+else {
+    let c = a - b;
+}
+
+*/
